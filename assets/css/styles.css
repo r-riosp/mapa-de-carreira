@@ -199,6 +199,24 @@ h6 {
     transform: scale(1.1);
 }
 
+.profile-contact a.download-cv {
+    background: var(--gradient-primary);
+    border: none;
+    color: var(--color-text);
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.profile-contact a.download-cv:hover {
+    background: var(--color-primary-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(107, 107, 170, 0.3);
+}
+
+.profile-contact a.download-cv i {
+    color: var(--color-text);
+}
+
 /* Media Queries para o perfil */
 @media (max-width: 1200px) {
     .profile {
